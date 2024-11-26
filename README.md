@@ -7,6 +7,12 @@ A WebSocket-based chat application using FastAPI for the backend and a simple HT
 - Python 3.7+
 - Node.js 
 ### How to run the code
+## Using bash script
+1. **Execute the bash script**:
+   ```bash
+   ./run.sh
+2. **Open your browser and navigate to http://localhost:3000**
+## Manual Run
 1. **Navigate to the backend directory**:
    ```bash
    cd backend
@@ -29,4 +35,4 @@ A WebSocket-based chat application using FastAPI for the backend and a simple HT
 7. **Run the frontend**
    ```bash
    python -m http.server 3000 --directory .
-
+8. **Open your browser and navigate to http://localhost:3000**
